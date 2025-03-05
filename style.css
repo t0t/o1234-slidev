@@ -1,0 +1,109 @@
+/* Estilos personalizados para la presentación 01234 */
+
+:root {
+  --color-0: #000000;
+  --color-1: #1a237e;
+  --color-2: #0d47a1;
+  --color-3: #01579b;
+  --color-4: #006064;
+  
+  --gradient-background: linear-gradient(to right bottom, #1a237e, #0d47a1, #01579b, #006064);
+}
+
+/* Estilos para cada número del sistema 01234 */
+.num-0 {
+  color: var(--color-0);
+  font-weight: bold;
+}
+
+.num-1 {
+  color: var(--color-1);
+  font-weight: bold;
+}
+
+.num-2 {
+  color: var(--color-2);
+  font-weight: bold;
+}
+
+.num-3 {
+  color: var(--color-3);
+  font-weight: bold;
+}
+
+.num-4 {
+  color: var(--color-4);
+  font-weight: bold;
+}
+
+/* Fondos especiales */
+.gradient-bg {
+  background: var(--gradient-background);
+  color: white;
+}
+
+/* Encabezados */
+h1 {
+  font-size: 2.5em !important;
+  font-weight: 700 !important;
+  background-image: var(--gradient-background);
+  background-clip: text;
+  -webkit-background-clip: text;
+  color: transparent;
+}
+
+h2 {
+  font-size: 1.8em !important;
+  margin-bottom: 1em !important;
+}
+
+/* Citas */
+blockquote {
+  border-left: 4px solid var(--color-3);
+  padding-left: 1em;
+  font-style: italic;
+}
+
+/* Listas */
+ul li, ol li {
+  margin-bottom: 0.5em;
+}
+
+/* Sección de código */
+.slidev-code {
+  border-radius: 8px;
+  box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+}
+
+/* Animaciones para elementos */
+.slidev-vclick-target {
+  transition: all 0.5s ease;
+}
+
+/* Tablas */
+table {
+  width: 100%;
+  border-collapse: collapse;
+}
+
+table th {
+  background-color: var(--color-3);
+  color: white;
+  padding: 10px;
+}
+
+table td {
+  padding: 8px;
+  border: 1px solid #ddd;
+}
+
+/* Estilos para dispositivos móviles */
+@media (max-width: 640px) {
+  h1 {
+    font-size: 1.8em !important;
+  }
+  
+  h2 {
+    font-size: 1.4em !important;
+  }
+}
