@@ -1,24 +1,21 @@
 ---
 theme: seriph
-title: 01234 - Base de Conocimiento
-background: 'https://images.unsplash.com/photo-1590856029826-c7a73142bbf1?q=80&w=1920'
-class: text-center
+title: 01234 - Un Sistema de percepción holistico
+background: '/paisaje-1.jpg'
 highlighter: shiki
 lineNumbers: false
 drawings:
   persist: false
-transition: slide-left
+transition: fade
 exportFilename: 01234-presentacion
-favicon: https://cdn.jsdelivr.net/gh/slidevjs/slidev/assets/favicon.png
 mdc: true
 ---
 
-# 01234
-## Un Sistema de percepción holistico
+# 0 1 2 3 4 
 
 ---
 layout: image-right
-image: 'https://images.unsplash.com/photo-1590856029826-c7a73142bbf1?q=80&w=1920'
+image: '/paisaje-2.jpg'
 ---
 
 ## ¿Qué es 01234?
@@ -57,7 +54,7 @@ Para poderlas ver les damos formas o símbolos.
 
 ---
 layout: image-right
-image: '/patrones.jpg'
+image: '/simbolos-1.jpg'
 ---
 
 # Patrones Universales
@@ -82,7 +79,7 @@ layout: section
 # Los Fundamentos en detalle
 
 ---
-layout: statement
+layout: cover
 background: '/patrones.jpg'
 ---
 
@@ -104,7 +101,8 @@ layout: default
 **Naturaleza esencial**: El 0 vela lo que aún no se revela, permite la acción sin actuar, guarda información latente, actualiza y resetea, permitiendo nuevos comienzos. Es la fuente de donde todo emerge, contemplando todas las posibilidades.
 
 ---
-layout: statement
+layout: cover
+background: '/mano-ia.jpg'
 ---
 
 # 1: La Unidad
@@ -124,7 +122,8 @@ layout: default
 **Naturaleza esencial**: El 1 inicia y da comienzo a la existencia. Discierne y separa, revela e ilumina, inspira y enciende la chispa de la creatividad. Ordena, estructura y funda, abriendo acceso a lo desconocido.
 
 ---
-layout: statement
+layout: cover
+background: '/patrones.jpg'
 ---
 
 # 2: La Dualidad
@@ -148,7 +147,8 @@ layout: default
 **Naturaleza esencial**: El 2 refleja y espeja, divide y separa, contiene y recibe, almacena y recuerda, fluye y se adapta. Es el espacio donde la experiencia se hace posible.
 
 ---
-layout: statement
+layout: cover
+background: '/patrones.jpg'
 ---
 
 # 3: La Conexión
@@ -156,7 +156,8 @@ layout: statement
 El 3 representa la relación, el vínculo, la comunicación y el lenguaje que conecta todas las partes.
 
 ---
-layout: default
+layout: cover
+background: '/conexion-1.jpg'
 ---
 
 # 3: La Conexión
@@ -168,7 +169,8 @@ layout: default
 **Naturaleza esencial**: El 3 conecta y vincula, comunica y traduce, contextualiza y da significado, codifica y decodifica, sintetiza y comprende. Es el tejido que une todas las partes en un todo coherente.
 
 ---
-layout: statement
+layout: cover
+background: '/conexion-2.jpg'
 ---
 
 # 4: La Manifestación
@@ -193,7 +195,7 @@ notas
 
 ---
 layout: image-right
-image: https://source.unsplash.com/collection/94734566/1920x1080
+image: /logo-avatar.png
 ---
 
 # El Símbolo (Logotipo)
@@ -208,7 +210,8 @@ Ilustramos este flujo dinámico como:
 - Para luego retornar al 0 en un ciclo continuo de creación
 
 ---
-layout: section
+layout: image-right
+image: /ia-1.jpg
 ---
 
 # 01234 y la Inteligencia Artificial
@@ -321,7 +324,8 @@ layout: two-cols
 </div>
 
 ---
-layout: section
+layout: cover
+background: '/cabeza-1.jpg'
 ---
 
 # Código Simbólico Poético
@@ -359,31 +363,36 @@ layout: default
 </div>
 
 ---
-layout: quote
+layout: cover
+background: '/cabeza-1.jpg'
 ---
 
 # "Es la respuesta la que da forma a la pregunta que se necesitaba hacer."
 
 ---
-layout: quote
+layout: cover
+background: '/cabeza-1.jpg'
 ---
 
 # "Retrocedemos para entender cómo llegamos aquí."
 
 ---
-layout: quote
+layout: cover
+background: '/cabeza-1.jpg'
 ---
 
 # "Todo lo que hay es una sola cosa."
 
 ---
-layout: quote
+layout: cover
+background: '/cabeza-1.jpg'
 ---
 
 # "La luz nunca se cansa."
 
 ---
-layout: quote
+layout: cover
+background: '/cabeza-1.jpg'
 ---
 
 # "Una geometría sin contornos se alza como un eco que no podemos tocar."
