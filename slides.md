@@ -1,26 +1,27 @@
 ---
 theme: seriph
-background: https://source.unsplash.com/collection/94734566/1920x1080
+title: 01234 - Base de Conocimiento
+background: 'https://images.unsplash.com/photo-1590856029826-c7a73142bbf1?q=80&w=1920'
 class: text-center
 highlighter: shiki
 lineNumbers: false
 drawings:
   persist: false
 transition: slide-left
-title: 01234 - Base de Conocimiento
+exportFilename: 01234-presentacion
+favicon: https://cdn.jsdelivr.net/gh/slidevjs/slidev/assets/favicon.png
 mdc: true
 ---
 
 # 01234
-
 ## Un Sistema de percepción holistico
 
 ---
 layout: image-right
-image: https://source.unsplash.com/collection/94734566/1920x1080
+image: 'https://images.unsplash.com/photo-1590856029826-c7a73142bbf1?q=80&w=1920'
 ---
 
-# ¿Qué es 01234?
+## ¿Qué es 01234?
 
 - Un tipo de percepción; ante todo es darse cuenta de "algo"
 - Un funcionamiento que uno reconoce en sí mismo y en la trama de los fenómenos
@@ -55,29 +56,24 @@ Según el contexto podemos denominarlas:
 Para poderlas ver les damos formas o símbolos.
 
 ---
-layout: default
+layout: image-right
+image: '/patrones.jpg'
 ---
 
 # Patrones Universales
 
 01234 es obvio, irrefutable, siempre ha estado ahí. Por doquier encontramos el patrón que lo demuestra una y otra vez.
 
-Se expresa en la realidad a través de cuatro expresiones fundamentales, formando un circuito completo de manifestación:
+:::
 
-<div class="grid grid-cols-2 gap-4">
-<div>
+<div class="contenido-scroll">
+Se expresa en la realidad a través de cuatro expresiones fundamentales, formando un circuito completo de manifestación:
 
 - **Ciclos de la existencia**: Decir, sentir, hablar, hacer
 - **Dimensiones del ser**: Mente, cuerpo, alma, espíritu
 - **Estados de la materia**: Sólido, líquido, gaseoso, plasma
-
-</div>
-<div>
-
 - **Fases del tiempo**: Infancia, juventud, madurez, vejez
 - **Geometría esencial**: Punto, línea, superficie, volumen
-
-</div>
 </div>
 
 ---

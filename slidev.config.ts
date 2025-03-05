@@ -4,7 +4,7 @@ export default defineConfig({
   // Opciones de presentación
   title: '01234 - Base de Conocimiento',
   titleTemplate: '%s - 01234',
-  author: 'Autor',
+  author: 'Sergio Forés',
   description: 'Una presentación sobre el sistema 01234',
   
   // Opciones de tema
@@ -27,7 +27,7 @@ export default defineConfig({
   
   // Opciones de fuentes
   fonts: {
-    sans: 'Roboto, sans-serif',
+    sans: 'Montserrat, Roboto, sans-serif',
     serif: 'Roboto Slab, serif',
     mono: 'Fira Code, monospace',
   },

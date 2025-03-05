@@ -1,100 +1,90 @@
 /* Estilos personalizados para la presentación 01234 */
 
+/* Importar fuente Montserrat de Google Fonts */
+@import url('https://fonts.googleapis.com/css2?family=Montserrat:wght@300;400;500;600;700&display=swap');
+
+/* Clase para contenido con scroll */
+.contenido-scroll {
+  max-height: 400px;
+  overflow-y: auto;
+  padding-right: 15px;
+  border-left: 3px solid var(--color-2);
+  padding-left: 15px;
+}
+
+/* Personalización de la barra de desplazamiento */
+.contenido-scroll::-webkit-scrollbar {
+  width: 8px;
+}
+
+.contenido-scroll::-webkit-scrollbar-track {
+  background: rgba(0, 0, 0, 0.05);
+  border-radius: 4px;
+}
+
+.contenido-scroll::-webkit-scrollbar-thumb {
+  background: var(--color-2);
+  border-radius: 4px;
+}
+
 :root {
   --color-0: #000000;
   --color-1: #1a237e;
-  --color-2: #0d47a1;
-  --color-3: #01579b;
-  --color-4: #006064;
+  --color-2: #0066ff;
+  --color-3: #b2dba9;
+  --color-4: #d4b1d3;
+
+  --size-1: 1rem;
+  --size-2: 2rem;
+  --size-3: 3rem;
+  --size-4: 4rem;
   
   --gradient-background: linear-gradient(to right bottom, #1a237e, #0d47a1, #01579b, #006064);
 }
 
-/* Estilos para cada número del sistema 01234 */
-.num-0 {
-  color: var(--color-0);
-  font-weight: bold;
+
+/* Aplicar Montserrat a elementos específicos */
+.slidev-layout {
+  font-family: 'Montserrat', sans-serif;
 }
 
-.num-1 {
-  color: var(--color-1);
-  font-weight: bold;
-}
-
-.num-2 {
-  color: var(--color-2);
-  font-weight: bold;
-}
-
-.num-3 {
-  color: var(--color-3);
-  font-weight: bold;
-}
-
-.num-4 {
+.slidev-layout h1,
+.slidev-layout h2,
+.slidev-layout h3,
+.slidev-layout h4,
+.slidev-layout h5,
+.slidev-layout h6 {
+  font-family: 'Montserrat', sans-serif;
+  font-weight: 600;
   color: var(--color-4);
-  font-weight: bold;
+  letter-spacing: 2px;
+  margin-bottom: var(--size-3);
 }
 
-/* Fondos especiales */
-.gradient-bg {
-  background: var(--gradient-background);
-  color: white;
+/* Ajustar pesos de fuente para mejor legibilidad */
+.slidev-layout p,
+.slidev-layout li {
+  font-weight: 400;
 }
 
-/* Encabezados */
-h1 {
-  font-size: 2.5em !important;
-  font-weight: 700 !important;
-  background-image: var(--gradient-background);
-  background-clip: text;
-  -webkit-background-clip: text;
-  color: transparent;
+.slidev-layout strong {
+  font-weight: 600;
 }
 
-h2 {
-  font-size: 1.8em !important;
-  margin-bottom: 1em !important;
+/* Ajustes para el panel de navegación */
+
+
+.slidev-layout > .slide-container {
+  flex-grow: 1;
+  width: 80% !important;
 }
 
-/* Citas */
-blockquote {
-  border-left: 4px solid var(--color-3);
-  padding-left: 1em;
-  font-style: italic;
-}
-
-/* Listas */
-ul li, ol li {
-  margin-bottom: 0.5em;
-}
-
-/* Sección de código */
-.slidev-code {
-  border-radius: 8px;
-  box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
-}
-
-/* Animaciones para elementos */
-.slidev-vclick-target {
-  transition: all 0.5s ease;
-}
-
-/* Tablas */
-table {
-  width: 100%;
-  border-collapse: collapse;
-}
-
-table th {
-  background-color: var(--color-3);
-  color: white;
-  padding: 10px;
-}
-
-table td {
-  padding: 8px;
-  border: 1px solid #ddd;
+.slidev-layout > .slide-nav {
+  position: fixed;
+  right: 0;
+  top: 0;
+  height: 100%;
+  width: 20%;
 }
 
 /* Estilos para dispositivos móviles */
