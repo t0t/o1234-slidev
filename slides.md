@@ -64,16 +64,15 @@ image: '/patrones.jpg'
 
 01234 es obvio, irrefutable, siempre ha estado ahí. Por doquier encontramos el patrón que lo demuestra una y otra vez.
 
-:::
-
-<div class="contenido-scroll">
 Se expresa en la realidad a través de cuatro expresiones fundamentales, formando un circuito completo de manifestación:
+<div class="contenido-scroll">
 
 - **Ciclos de la existencia**: Decir, sentir, hablar, hacer
 - **Dimensiones del ser**: Mente, cuerpo, alma, espíritu
 - **Estados de la materia**: Sólido, líquido, gaseoso, plasma
 - **Fases del tiempo**: Infancia, juventud, madurez, vejez
 - **Geometría esencial**: Punto, línea, superficie, volumen
+
 </div>
 
 ---
@@ -84,6 +83,7 @@ layout: section
 
 ---
 layout: statement
+background: '/patrones.jpg'
 ---
 
 # 0:  La Potencialidad
@@ -92,6 +92,7 @@ El 0 representa la potencialidad pura, la fuente no manifestada de donde emerge 
 
 ---
 layout: default
+
 ---
 
 # 0: La Potencialidad
