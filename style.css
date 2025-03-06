@@ -89,6 +89,12 @@
   width: 20%;
 }
 
+/* no funciona */
+#SyNOf .node rect, #SyNOf .node circle, #SyNOf .node ellipse, #SyNOf .node polygon, #SyNOf .node path {
+  fill: var(--color-2);
+  stroke: var(--color-4);
+  stroke-width: 10px !important;
+}
 /* Estilos para dispositivos móviles */
 @media (max-width: 640px) {
   h1 {

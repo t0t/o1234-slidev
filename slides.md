@@ -29,6 +29,26 @@ image: '/paisaje-2.jpg'
 - Las cinco partes que lo componen todo
 
 ---
+layout: cover
+background: '/paisaje-3.jpg'
+---
+
+# Prompt: el lenguaje crea!
+
+```mermaid
+  graph LR;
+    A0[0 - Preexistencia] -->|Emerge| A1[1 - Discernimiento]
+    A1 -->|Distingue| A2[2 - Diferenciación]
+    A2 -->|Relaciona| A3[3 - Conexión]
+    A3 -->|Sintetiza| A4[4 - Manifestación]
+    
+    A4 -->|ACTUALIZA a 0| A0
+
+    A1 -.-> A3
+    A2 -.-> A4
+```
+
+---
 layout: two-cols
 ---
 
